@@ -3,7 +3,7 @@
 [![Docker Repository on Quay](https://quay.io/repository/ks126/code-alpine-with-https/status "Docker Repository on Quay")](https://quay.io/repository/ks126/code-alpine-with-https)
 
 ```
-docker create --name code-alpine -p 8080:8080 quay.io/ks126/code-alpine
+docker create --name code-alpine -p 8080:8080 quay.io/ks126/code-alpine-with-https
 docker cp code-alpine:/home/user/ca/server.crt code-alpine.crt
 ```
 
