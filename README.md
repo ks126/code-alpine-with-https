@@ -8,3 +8,8 @@ docker cp code-alpine:/home/user/ca/server.crt code-alpine.crt
 ```
 
 Next, add `code-alpine.crt` to your OS
+
+Start:
+```
+docker start code-alpine
+```
